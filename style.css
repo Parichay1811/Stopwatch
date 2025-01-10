@@ -19,6 +19,11 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     width: 50%;
     height: 50%;
+    overflow-y: auto;
+    
+}
+.stopwatch::-webkit-scrollbar{
+    display: none;
 }
 .stopwatch > h1{
     font-size: 50px;
